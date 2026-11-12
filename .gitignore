@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Local credentials and secrets — never commit these
+.credentials.yaml
+.env
+.env.*
+
+# Editor and OS noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test and debug artifacts
+.test.mjs
+.test-out.txt
+.probe.txt
+.raw.json
+*.log

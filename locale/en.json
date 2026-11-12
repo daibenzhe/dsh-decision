@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Decision models",
+    "description": "Unify Jev, Google Gemini Decision 1, and OpenAI Decisions behind one decision tool. Ask typed yes/no, choice, and score questions against any of the three backends and get calibrated probabilities back.",
+    "detail": "docs/DETAIL.md"
+  }
+}

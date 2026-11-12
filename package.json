@@ -1,0 +1,32 @@
+{
+  "name": "@daibenzhe/dsh-decision",
+  "version": "1.0.0",
+  "description": "Unify Jev, Google Gemini Decision 1, and OpenAI Decisions behind one DSH tool, slash command, and programmable interface",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "decision-model",
+    "jev",
+    "gemini-decision",
+    "openai-decisions"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

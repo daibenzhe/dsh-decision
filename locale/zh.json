@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "决策模型",
+    "description": "把 Jev、Google Gemini Decision 1 与 OpenAI Decisions 统一到同一个决策工具后。对任意一个后端提出类型化的「是否」「选择」「评分」问题，并返回带校准概率的答案。",
+    "detail": "docs/DETAIL.md"
+  }
+}
